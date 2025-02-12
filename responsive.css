@@ -4,7 +4,331 @@
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1024px) {
+
+h1 {
+    font-size: 39px;
+    line-height: 50px;
+}
+
+/*-- Header --*/
+
+#header {
+    padding: 0 25px;
+}
+
+.resp_nav_wrapp {
+    padding: 20px 0 20px 0;
+}
+
+/*-- /Header --*/
+
+/*-- Section 5 --*/
+
+.sect_5 {
+    padding: 39px 0 40px 0;
+}
+
+.faqs {
+    max-width: 100%;
+    padding-right: 20px;
+}
+
+.faq_item_title {
+    padding: 25px 0 26px 0;
+}
+
+.faq_item_title h3 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.callback_box {
+    margin: 65px auto 0 auto;
+}
+
+.callback_box h3 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.callback_box .grey_pill {
+    margin: 23px 0 0 0;
+}
+
+/*-- /Section 5 --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+
+h2 {
+    font-size: 31px;
+    line-height: 39px;
+}
+
+/*-- Section 2 --*/
+
+.thumb {
+    width: calc(50% - 24px);
+}
+
+/*-- /Section 2 --*/
+
+/*-- Section 3 --*/
+
+.thumb_2 p {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/*-- /Section 3 --*/
+
+/*-- Footer --*/
+
+.footer_templ > div:nth-child(1) {
+    width: 100%;
+}
+
+.footer_templ > div:nth-child(2) {
+    width: 100%;
+    text-align: right;
+    padding-top: 10px;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 768px) {
+
+/*-- Header --*/
+
+.header_site {
+    text-align: right;
+    padding: 5px 0;
+}
+
+.resp_nav_wrapp {
+    padding: 45px 0 30px 0;
+}
+
+#header.scroll .resp_nav_wrapp {
+    padding: 45px 0 30px 0;
+}
+
+#respNav {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 14px 10px 30px 10px;
+    height: 100vh;
+    z-index: 10;
+    background: #262322;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.resp_nav {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.resp_nav:after {
+    display: none;
+}
+
+.respmenubtn {
+    width: auto;
+    display: inline-block !important;
+    vertical-align: top;
+    padding: 0 15px;
+    position: relative;
+    z-index: 10;
+}
+
+/*-- /Header --*/
+
+/*-- Section 3 --*/
+
+.thumb_2 {
+    width: calc(100% - 20px);
+    margin: 13px 15px;
+}
+
+.thumb_2 .inner {
+    width: 100%;
+}
+
+.thumb_2 p {
+    font-size: 18px;
+}
+
+/*-- /Section 3 --*/
+
+/*-- Section 4 --*/
+
+.article_2 {
+    width: 100%;
+    padding: 120px 30px 120px 30px;
+}
+
+.article_2 p {
+    padding: 0 0 18px 0;
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.article_2 .grey_pill {
+    margin: 20px 0 0 0;
+    font-size: 20px;
+}
+
+/*-- /Section 4 --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+/*-- Section 5 --*/
+
+.faqs {
+    padding-right: 10px;
+}
+
+.faq_item_title {
+    padding: 15px 0 15px 0;
+}
+
+.faq_item_title h3 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.faq_item_content {
+    margin-top: 0;
+    padding-bottom: 18px;
+}
+
+.faq_item_content p {
+    padding: 5px 0;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.faq_item_content ul li {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.callback_box {
+    margin: 50px auto 0 auto;
+    padding: 22px 30px 25px 30px;
+}
+
+.callback_box h3 {
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.callback_box .grey_pill {
+    min-width: 100%;
+    font-size: 16px;
+    padding: 3px 10px;
+}
+
+.faq_item_title:after {
+    right: -20px;
+}
+
+/*-- /Section 5 --*/
+
+/*-- Footer --*/
+
+.footer_section {
+    padding: 20px 0 20px 0;
+}
+
+.footer_templ > div:nth-child(1) {
+    width: 100%;
+    text-align: center;
+}
+
+.footer_templ > div:nth-child(2) {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer_nav li {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+
+h1 {
+    font-size: 34px;
+    line-height: 45px;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 39px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+/*-- Header --*/
+
+.row {
+    padding: 0 20px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 --*/
+
+.promo_article {
+    padding: 30px 25px 35px 25px;
+}
+
+.promo_article h3 {
+    padding: 20px 0 15px 0;
+}
+
+/*-- /Section 1 --*/
+
+/*-- Section 2 --*/
+
+.thumb {
+    width: calc(100% - 24px);
+}
+
+/*-- /Section 2 --*/
+
+}
+
+@media only screen and (max-width: 400px) {
+
+h2 {
+    font-size: 24px;
+    line-height: 39px;
+}
+
+}
+
+@media only screen and (min-width: 769px) {
 
 #resp_nav {
     display: block !important;
